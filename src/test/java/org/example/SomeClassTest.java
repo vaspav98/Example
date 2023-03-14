@@ -7,7 +7,7 @@ public class SomeClassTest {
 
     @Test
     public void testSum() {
-        var expected = 6;
+        var expected = 5;
         var actual = SomeClass.sum(3, 2);
         assertThat(expected).isEqualTo(actual);
 
