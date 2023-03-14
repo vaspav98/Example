@@ -1,0 +1,8 @@
+name: myTest
+on: push
+jobs:
+        buils:
+                runs-on: ubuntu-latest
+                steps:
+                        - uses: actions/checkout@v3
+                        - run: ./gradlew test
